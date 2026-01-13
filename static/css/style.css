@@ -1,0 +1,45 @@
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+    background:#f4f6f9;
+}
+
+/* Navbar shadow */
+.navbar{
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Card hover effect */
+.card{
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.01);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* Buttons */
+.btn{
+    border-radius: 8px;
+}
+
+/* Forms */
+.form-control{
+    border-radius: 8px;
+}
+
+/* Page heading */
+h3, h4{
+    font-weight: 600;
+}
+
+/* File upload */
+input[type="file"]{
+    padding: 10px;
+}
+
+/* Links */
+a{
+    text-decoration: none;
+}
